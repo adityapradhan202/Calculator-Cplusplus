@@ -3,10 +3,10 @@
 using namespace std;
 
 // FUnction prototypes
-void add(int x, int y);
-void subtract(int x, int y);
-void divide(int x, int y);
-void multiply(int x, int y);
+void add(float x, float y);
+void subtract(float x, float y);
+void divide(float x, float y);
+void multiply(float x, float y);
 
 // Homepage
 void homepage(){
@@ -77,19 +77,19 @@ int main(){
 }
 
 // Function definition
-void add(int x, int y){
+void add(float x, float y){
     cout<<"Sum: "<<x+y;
     cout<<endl;
 }
-void subtract(int x, int y){
+void subtract(float x, float y){
     cout<<"Difference: "<<x-y;
     cout<<endl;
 }
-void divide(int x, int y){
+void divide(float x, float y){
     cout<<"Quotient: "<<x/y;
     cout<<endl;
 }
-void multiply(int x, int y){
+void multiply(float x, float y){
     cout<<"Product: "<<x*y;
     cout<<endl;
 }
